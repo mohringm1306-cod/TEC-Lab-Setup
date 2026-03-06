@@ -1,0 +1,71 @@
+============================================================
+  TEC Lab Remote Desktop - MAC INSTRUCTIONS
+  College of DuPage
+============================================================
+
+The .exe and .bat files in this folder are for WINDOWS ONLY.
+If you have a Mac, follow these manual steps instead.
+
+============================================================
+STEP 1: SET UP MICROSOFT AUTHENTICATOR
+============================================================
+(Same as Windows - see "1-READ-THIS-FIRST.txt")
+
+1. Install Microsoft Authenticator on your phone
+2. Go to: https://mysignins.microsoft.com/security-info
+3. Add Authenticator app and scan QR code
+4. Set default sign-in to "App based authentication - notification"
+
+   *** DO NOT SELECT "code" - HP Anyware will NOT work! ***
+
+============================================================
+STEP 2: DOWNLOAD HP ANYWARE FOR MAC
+============================================================
+Download from:
+https://dl.teradici.com/DeAdBCiUYInHcSTy/pcoip-client/raw/names/pcoip-client-dmg/versions/latest/pcoip-client_latest.dmg
+
+============================================================
+STEP 3: INSTALL HP ANYWARE
+============================================================
+1. Open the downloaded .dmg file
+2. Click "Agree" on the license agreement
+3. Drag PCoIPClient.app into the Applications folder
+4. Open Applications folder, double-click PCoIPClient.app
+5. Click "Open System Preferences" when prompted
+6. Click the lock icon to allow changes
+7. Check the box next to PCoIPClient.app
+8. Close System Preferences
+
+============================================================
+STEP 4: CONFIGURE HP ANYWARE
+============================================================
+1. In the HP Anyware app, click the gear icon (top left)
+2. Click "Advanced"
+3. Select "Security mode - Low"
+   (This is required or you'll get a connection error)
+4. Close the settings window
+5. Click "Add connection"
+6. Enter:
+   - Host Address: hpanyware.cod.edu
+   - Connection Name: TEC Lab
+7. Click "Add connection"
+
+============================================================
+STEP 5: CONNECT
+============================================================
+1. Click the "TEC Lab" connection
+2. Enter your COD username (NOT the full email)
+3. Enter your COD password
+4. Click "Connect"
+5. Click "Request Push"
+6. Approve the notification on your phone
+7. Select an available computer
+
+============================================================
+NEED HELP?
+============================================================
+COD Help Desk:
+  Email: helpdesk@cod.edu
+  Phone: (630) 942-2999
+
+============================================================

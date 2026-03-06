@@ -1,0 +1,127 @@
+============================================================
+  TEC Lab Remote Desktop - SETUP INSTRUCTIONS
+  College of DuPage
+============================================================
+
+IMPORTANT: Complete these steps IN ORDER!
+
+============================================================
+STEP 1: SET UP MICROSOFT AUTHENTICATOR ON YOUR PHONE
+============================================================
+You MUST do this BEFORE running the installer!
+
+1. On your PHONE:
+   - Install "Microsoft Authenticator" from App Store or Play Store
+   - Make sure it says "Microsoft Corporation" as the developer
+
+2. On your COMPUTER, go to:
+   https://mysignins.microsoft.com/security-info
+
+3. Sign in with your COD email (yourname@dupage.edu)
+
+4. Click "+ Add sign-in method"
+
+5. Select "Authenticator app" from the dropdown, click "Add"
+
+6. Follow the prompts:
+   - Click "Next" on the "Start by getting the app" screen
+   - Click "Next" on the "Set up your account" screen
+   - On your PHONE, tap "Scan a QR code" in the Authenticator app
+   - Scan the QR code shown on your computer screen
+   - Tap "Approve" on the notification that appears on your phone
+   - Click "Next" on your computer when it says "Notification approved"
+
+7. NOW THE CRITICAL STEP - Set your default sign-in method:
+   - Click "Change" next to "Default sign-in method"
+   - Select "App based authentication - notification"
+
+   *** DO NOT SELECT "code" - HP Anyware will NOT work! ***
+
+============================================================
+STEP 2: RENAME THE SETUP FILE
+============================================================
+The setup file was renamed to avoid email security filters.
+
+1. Find the file: 2-Run-This-To-Connect.bat.txt
+2. Right-click it > Rename
+3. Remove the ".txt" from the end so it says:
+   2-Run-This-To-Connect.bat
+4. Click "Yes" if Windows asks about changing the extension
+
+   Can't see ".txt" at the end? In File Explorer, click
+   View > check "File name extensions"
+
+============================================================
+STEP 3: RUN THE INSTALLER (Windows Only)
+============================================================
+After renaming, double-click:
+
+   2-Run-This-To-Connect.bat
+
+This will:
+- Install HP Anyware if needed (click Yes on any prompts)
+- Configure the connection settings automatically
+- Connect you to TEC Lab
+
+If you see a SmartScreen warning:
+- Click "More info"
+- Click "Run anyway"
+
+============================================================
+STEP 3: LOG IN TO TEC LAB
+============================================================
+1. Enter your COD username (just username, NOT the full email)
+   Example: smithj (not smithj@dupage.edu)
+
+2. Enter your COD password
+
+3. Click "Connect"
+
+4. Click "Request Push"
+
+5. On your phone, tap "Approve" on the notification
+
+6. Select an available computer from the list
+
+============================================================
+NEXT TIME
+============================================================
+After the first setup, you can either:
+- Run "2-Run-This-To-Connect.bat" again, OR
+- Search for "PCoIP Client" in the Start Menu
+
+============================================================
+TROUBLESHOOTING
+============================================================
+"Request Push" doesn't work:
+  -> Your default sign-in must be "notification" not "code"
+  -> Go to mysignins.microsoft.com/security-info and change it
+
+SmartScreen blocks the installer:
+  -> Click "More info" then "Run anyway"
+
+Installation fails:
+  -> Make sure you have internet access
+  -> Click "Yes" on administrator prompts
+
+Can't connect:
+  -> Check your internet connection
+  -> On campus? Connect to COD-WiFi or use ethernet
+
+============================================================
+INTERNET REQUIREMENTS
+============================================================
+For smooth video:
+  30 fps: Average 5 Mbps, Peak 50 Mbps
+  60 fps: Average 10 Mbps, Peak 100 Mbps
+
+Test your speed at: speedtest.net
+
+============================================================
+NEED HELP?
+============================================================
+COD Help Desk:
+  Email: helpdesk@cod.edu
+  Phone: (630) 942-2999
+
+============================================================
