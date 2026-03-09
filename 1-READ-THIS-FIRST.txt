@@ -3,6 +3,18 @@
   College of DuPage
 ============================================================
 
+*** FIRST: EXTRACT THIS ZIP FILE! ***
+
+You MUST extract all files before running anything:
+1. Right-click the zip file
+2. Select "Extract All..."
+3. Click "Extract"
+4. Open the extracted folder
+
+The batch file will NOT work from inside the zip!
+
+============================================================
+
 IMPORTANT: Complete these steps IN ORDER!
 
 ============================================================
@@ -38,23 +50,9 @@ You MUST do this BEFORE running the installer!
    *** DO NOT SELECT "code" - HP Anyware will NOT work! ***
 
 ============================================================
-STEP 2: RENAME THE SETUP FILE
+STEP 2: RUN THE INSTALLER (Windows Only)
 ============================================================
-The setup file was renamed to avoid email security filters.
-
-1. Find the file: 2-Run-This-To-Connect.bat.txt
-2. Right-click it > Rename
-3. Remove the ".txt" from the end so it says:
-   2-Run-This-To-Connect.bat
-4. Click "Yes" if Windows asks about changing the extension
-
-   Can't see ".txt" at the end? In File Explorer, click
-   View > check "File name extensions"
-
-============================================================
-STEP 3: RUN THE INSTALLER (Windows Only)
-============================================================
-After renaming, double-click:
+After completing Step 1, double-click:
 
    2-Run-This-To-Connect.bat
 
@@ -86,9 +84,8 @@ STEP 3: LOG IN TO TEC LAB
 ============================================================
 NEXT TIME
 ============================================================
-After the first setup, you can either:
-- Run "2-Run-This-To-Connect.bat" again, OR
-- Search for "PCoIP Client" in the Start Menu
+After the first setup, a "TEC Lab" shortcut is created on
+your desktop. Just double-click it to reconnect.
 
 ============================================================
 TROUBLESHOOTING

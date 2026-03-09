@@ -15,7 +15,7 @@ Connect to TEC Lab computers remotely using HP Anyware.
 |------|-------------|
 | `0-Instructions-With-Pictures.html` | Visual setup guide with screenshots (open this first) |
 | `1-READ-THIS-FIRST.txt` | Text-only version of the instructions |
-| `2-Run-This-To-Connect.bat.txt` | Windows setup script (rename to `.bat` before running) |
+| `2-Run-This-To-Connect.bat` | Windows setup script (downloads, installs, and connects) |
 | `DO-NOT-RUN-Mac-Instructions.txt` | Manual setup steps for Mac users |
 
 ## Before You Start
@@ -32,10 +32,9 @@ You **must** set up Microsoft Authenticator on your phone before using HP Anywar
 
 ## Windows Setup
 
-1. Download and extract this package
-2. Rename `2-Run-This-To-Connect.bat.txt` to `2-Run-This-To-Connect.bat`
-   - Can't see the `.txt` extension? In File Explorer, click **View** > check **File name extensions**
-3. Double-click `2-Run-This-To-Connect.bat`
+1. Download and extract this package (right-click the zip > **Extract All**)
+2. Open the extracted folder
+3. Double-click **`2-Run-This-To-Connect.bat`**
 4. The script will automatically download and install HP Anyware, configure the connection, and launch TEC Lab
 
 After the first run, use the **TEC Lab** shortcut on your desktop to reconnect.
